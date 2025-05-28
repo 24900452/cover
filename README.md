@@ -107,7 +107,7 @@ Publish the website in the LocalHost.
     <div class="image">
         <img src="https://img.freepik.com/free-vector/flat-world-mental-health-day-background_23-2149634438.jpg?t=st=1744720480~exp=1744724080~hmac=f1760139b6a1644521a6843c7039f2b45bdc688d25f4f3a479e1d59dcfad5515&w=1380" length="10%" width="100%">
     </div>
-    <div class="author">By Morgan Simplar</div>
+    <div class="author">By Simplar</div>
   </div>
 </body>
 </html>
