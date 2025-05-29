@@ -32,82 +32,118 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Book Cover</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Cover Page</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Georgia', serif;
-    }
-
-    .book-cover {
+    .bookpage {
       width: 400px;
       height: 600px;
-      background: rgb(186, 70, 171);
-      border: 2px solid #333;
-      padding: 40px 30px;
+      color: black;
+      margin: 40px auto;
+      padding: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: #1b7196; /* Soft bookish background */
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      border-radius: 8px;
+      position: relative;
     }
 
-    .title {
-      font-size: 28px;
+    .insight {
+      color: black;
       font-weight: bold;
-      color: #2e2e2e;
+      letter-spacing: 1px;
+    }
+
+    .hrstyle hr {
+      width: 120px;
+      border: 2px solid yellow;
+      margin: 5px 0 20px 0;
+    }
+
+    .booktitle h1 {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 22px;
       text-align: center;
-      line-height: 1.3;
+      margin-bottom: 10px;
     }
 
     .subtitle {
+      font-family: Tahoma, sans-serif;
       font-size: 16px;
-      margin-top: 10px;
       text-align: center;
-      font-style: italic;
+      color: #333;
+      margin-bottom: 30px;
     }
 
-    .image {
-      flex: 1;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
-      margin: 30px 0;
+    .mypic img {
+      position: absolute;
+      top: 380px;
+      right: 30px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #fff;
+    }
+
+    .id hr {
+      border: 1px solid orange;
+      margin-top: 50px;
     }
 
     .author {
-      font-size: 18px;
-      text-align: center;
-      color: #444;
-      margin-top: 20px;
+      position: absolute;
+      bottom: 80px;
+      left: 20px;
+      font-family: Georgia, serif;
+      font-size: 16px;
+      color: red;
     }
 
-    .line {
-      height: 2px;
-      background: #333;
-      width: 50px;
-      margin: 10px auto;
+    .pub {
+      position: absolute;
+      bottom: 80px;
+      right: 30px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .ed {
+      position: absolute;
+      bottom: 40px;
+      left: 20px;
+      font-size: 14px;
+      color: black;
+      font-family: Verdana, sans-serif;
     }
   </style>
 </head>
 <body>
-  <div class="book-cover">
-    <div>
-      <div class="title">The Psychology of Simplicity</div>
-      <div class="line"></div>
-      <div class="subtitle">Understanding the beauty of less</div>
+  <div class="bookpage">
+    <div class="insight">SEC INSIGHT</div>
+
+    <div class="hrstyle"><hr /></div>
+
+    <div class="booktitle">
+      <h1>Web Development: The Complete Reference</h1>
     </div>
-    <div class="image">
-        <img src="https://img.freepik.com/free-vector/flat-world-mental-health-day-background_23-2149634438.jpg?t=st=1744720480~exp=1744724080~hmac=f1760139b6a1644521a6843c7039f2b45bdc688d25f4f3a479e1d59dcfad5515&w=1380" length="10%" width="100%">
+
+    <div class="subtitle">with Django and Bootstrap Insights</div>
+
+    <div class="mypic">
+      <img src="PIC.JPG"/>
     </div>
-    <div class="author">By Simplar</div>
+
+    <div class="id"><hr /></div>
+
+    <div class="author"><b>JOTHI GANESH P</b></div>
+    <div class="pub">SEC</div>
+    <div class="ed"><b>Extended Edition</b></div>
   </div>
 </body>
 </html>
@@ -116,7 +152,8 @@ Publish the website in the LocalHost.
 
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/19a56268-e8c7-4ee0-937a-40d0df9c095b)
+![Untitled design (1)](https://github.com/user-attachments/assets/7b970a69-ffa7-4df3-9272-455359308f77)
+
 
 
 
